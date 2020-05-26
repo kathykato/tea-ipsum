@@ -1,10 +1,14 @@
-import React from 'react'
+import React from "react"
 
 class Form extends React.Component {
   render() {
     return (
       <form className="input-form">
-        <select value={this.props.numParagraphs} onChange={this.props.updateParagraphs}>
+        <select
+          value={this.props.numParagraphs}
+          onChange={this.props.updateParagraphs}
+          onBlur={this.props.numParagraphs}
+        >
           <option value="1">1 paragraph</option>
           <option value="2">2 paragraphs</option>
           <option value="3">3 paragraphs</option>
@@ -16,7 +20,7 @@ class Form extends React.Component {
           <option value="9">9 paragraphs</option>
           <option value="10">10 paragraphs</option>
         </select>
-    </form>
+      </form>
     )
   }
 }

@@ -1,2 +1,2 @@
-require('typeface-libre-baskerville')
-require('typeface-inconsolata')
+require("typeface-libre-baskerville")
+require("typeface-inconsolata")

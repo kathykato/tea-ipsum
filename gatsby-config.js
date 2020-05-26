@@ -25,7 +25,12 @@ module.exports = {
         background_color: `#63a45c`,
         theme_color: `#63a45c`,
         display: `minimal-ui`,
-        icon: `src/images/tea-ipsum-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-emoji-favicon`,
+      options: {
+        emoji: `🍵`,
       },
     },
     `gatsby-plugin-offline`,

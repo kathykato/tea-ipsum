@@ -2,7 +2,8 @@ $md: 62rem;
 
 * {
   box-sizing: border-box;
-  &::before, &::after {
+  &::before,
+  &::after {
     box-sizing: inherit;
   }
 }
@@ -14,7 +15,7 @@ svg:not(:root) {
 body {
   margin: 0;
   color: #505857;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.55;
@@ -25,7 +26,9 @@ body {
   background: #fff;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   display: block;
 }
 
@@ -70,12 +73,14 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 1.1;
 }
 
 h1 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 2.125rem;
   font-weight: 600;
   margin: 1rem 0 1.25rem;
@@ -103,7 +108,9 @@ select {
   color: #373f3d;
   display: inline-block;
   appearance: none;
-  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 48 48'%3E%3Cpath d='M14.83 16.42L24 25.59l9.17-9.17L36 19.25l-12 12-12-12z' fill='%23505857'/%3E%3C/svg%3E") right 5px center no-repeat;
+  background: #fff
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 48 48'%3E%3Cpath d='M14.83 16.42L24 25.59l9.17-9.17L36 19.25l-12 12-12-12z' fill='%23505857'/%3E%3C/svg%3E")
+    right 5px center no-repeat;
   &:focus {
     outline: 0;
     border-color: #93c08e;
