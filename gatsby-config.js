@@ -21,12 +21,6 @@ module.exports = {
         icon: `src/images/favicon.png`
       },
     },
-    {
-      resolve: `gatsby-plugin-emoji-favicon`,
-      options: {
-        emoji: `🍵`,
-      },
-    },
     `gatsby-plugin-offline`,
   ],
 }
